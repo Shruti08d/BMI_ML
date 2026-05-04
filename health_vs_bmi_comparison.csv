@@ -1,0 +1,375 @@
+Person ID,Age,Occupation,Gender,BMI Category,Predicted Score,Gauge Tier,BMI_Health_Flag
+1,27,Software Engineer,Male,Overweight,62.54,Good,High Score / Poor BMI
+2,28,Doctor,Male,Normal,71.75,Good,Consistent
+3,28,Doctor,Male,Normal,71.75,Good,Consistent
+4,28,Sales Representative,Male,Obese,34.58,Poor,Consistent
+5,28,Sales Representative,Male,Obese,34.58,Poor,Consistent
+6,28,Software Engineer,Male,Obese,34.58,Poor,Consistent
+7,29,Teacher,Male,Obese,45.37,Fair,Consistent
+8,29,Doctor,Male,Normal,81.89,Excellent,Consistent
+9,29,Doctor,Male,Normal,81.89,Excellent,Consistent
+10,29,Doctor,Male,Normal,81.89,Excellent,Consistent
+11,29,Doctor,Male,Normal,64.85,Good,Consistent
+12,29,Doctor,Male,Normal,81.89,Excellent,Consistent
+13,29,Doctor,Male,Normal,64.85,Good,Consistent
+14,29,Doctor,Male,Normal,64.54,Good,Consistent
+15,29,Doctor,Male,Normal,64.54,Good,Consistent
+16,29,Doctor,Male,Normal,64.54,Good,Consistent
+17,29,Nurse,Female,Normal,52.67,Fair,Low Score / Normal BMI
+18,29,Doctor,Male,Normal,64.54,Good,Consistent
+19,29,Nurse,Female,Normal,52.67,Fair,Low Score / Normal BMI
+20,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+21,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+22,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+23,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+24,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+25,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+26,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+27,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+28,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+29,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+30,30,Doctor,Male,Normal,81.89,Excellent,Consistent
+31,30,Nurse,Female,Normal,53.17,Fair,Low Score / Normal BMI
+32,30,Nurse,Female,Normal,53.17,Fair,Low Score / Normal BMI
+33,31,Nurse,Female,Normal,86.79,Excellent,Consistent
+34,31,Doctor,Male,Normal,58.94,Fair,Low Score / Normal BMI
+35,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+36,31,Doctor,Male,Normal,58.94,Fair,Low Score / Normal BMI
+37,31,Doctor,Male,Normal,58.94,Fair,Low Score / Normal BMI
+38,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+39,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+40,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+41,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+42,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+43,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+44,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+45,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+46,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+47,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+48,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+49,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+50,31,Doctor,Male,Normal,81.89,Excellent,Consistent
+51,32,Engineer,Male,Normal,86.5,Excellent,Consistent
+52,32,Engineer,Male,Normal,86.5,Excellent,Consistent
+53,32,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+54,32,Doctor,Male,Normal,81.89,Excellent,Consistent
+55,32,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+56,32,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+57,32,Doctor,Male,Normal,81.89,Excellent,Consistent
+58,32,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+59,32,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+60,32,Doctor,Male,Normal,81.89,Excellent,Consistent
+61,32,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+62,32,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+63,32,Doctor,Male,Normal,59.25,Fair,Low Score / Normal BMI
+64,32,Doctor,Male,Normal,59.25,Fair,Low Score / Normal BMI
+65,32,Doctor,Male,Normal,59.25,Fair,Low Score / Normal BMI
+66,32,Doctor,Male,Normal,59.25,Fair,Low Score / Normal BMI
+67,32,Accountant,Male,Normal,80.05,Excellent,Consistent
+68,33,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+69,33,Scientist,Female,Overweight,63.41,Good,High Score / Poor BMI
+70,33,Scientist,Female,Overweight,63.41,Good,High Score / Poor BMI
+71,33,Doctor,Male,Normal,58.94,Fair,Low Score / Normal BMI
+72,33,Doctor,Male,Normal,58.94,Fair,Low Score / Normal BMI
+73,33,Doctor,Male,Normal,58.94,Fair,Low Score / Normal BMI
+74,33,Doctor,Male,Normal,58.94,Fair,Low Score / Normal BMI
+75,33,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+76,33,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+77,33,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+78,33,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+79,33,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+80,33,Doctor,Male,Normal,58.54,Fair,Low Score / Normal BMI
+81,34,Scientist,Female,Overweight,46.48,Fair,Consistent
+82,34,Scientist,Female,Overweight,46.48,Fair,Consistent
+83,35,Teacher,Male,Overweight,67.48,Good,High Score / Poor BMI
+84,35,Teacher,Male,Overweight,67.48,Good,High Score / Poor BMI
+85,35,Software Engineer,Male,Normal,85.8,Excellent,Consistent
+86,35,Accountant,Female,Normal,87.0,Excellent,Consistent
+87,35,Engineer,Male,Normal,81.95,Excellent,Consistent
+88,35,Engineer,Male,Normal,81.95,Excellent,Consistent
+89,35,Engineer,Male,Normal,81.95,Excellent,Consistent
+90,35,Engineer,Male,Normal,81.95,Excellent,Consistent
+91,35,Engineer,Male,Normal,81.95,Excellent,Consistent
+92,35,Engineer,Male,Normal,81.95,Excellent,Consistent
+93,35,Software Engineer,Male,Normal,85.8,Excellent,Consistent
+94,35,Lawyer,Male,Obese,66.51,Good,High Score / Poor BMI
+95,36,Accountant,Female,Normal,87.0,Excellent,Consistent
+96,36,Accountant,Female,Normal,87.0,Excellent,Consistent
+97,36,Accountant,Female,Normal,87.0,Excellent,Consistent
+98,36,Accountant,Female,Normal,87.0,Excellent,Consistent
+99,36,Teacher,Female,Normal,87.0,Excellent,Consistent
+100,36,Teacher,Female,Normal,87.0,Excellent,Consistent
+101,36,Teacher,Female,Normal,87.0,Excellent,Consistent
+102,36,Teacher,Female,Normal,87.0,Excellent,Consistent
+103,36,Teacher,Female,Normal,87.0,Excellent,Consistent
+104,36,Teacher,Male,Overweight,56.79,Fair,Consistent
+105,36,Teacher,Female,Normal,87.0,Excellent,Consistent
+106,36,Teacher,Male,Overweight,56.79,Fair,Consistent
+107,37,Nurse,Female,Overweight,62.54,Good,High Score / Poor BMI
+108,37,Engineer,Male,Normal,86.98,Excellent,Consistent
+109,37,Engineer,Male,Normal,86.98,Excellent,Consistent
+110,37,Lawyer,Male,Normal,75.76,Good,Consistent
+111,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+112,37,Lawyer,Male,Normal,75.76,Good,Consistent
+113,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+114,37,Lawyer,Male,Normal,75.76,Good,Consistent
+115,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+116,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+117,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+118,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+119,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+120,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+121,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+122,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+123,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+124,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+125,37,Accountant,Female,Normal,87.0,Excellent,Consistent
+126,37,Nurse,Female,Normal,87.75,Excellent,Consistent
+127,38,Lawyer,Male,Normal,75.81,Good,Consistent
+128,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+129,38,Lawyer,Male,Normal,75.81,Good,Consistent
+130,38,Lawyer,Male,Normal,75.81,Good,Consistent
+131,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+132,38,Lawyer,Male,Normal,75.81,Good,Consistent
+133,38,Lawyer,Male,Normal,75.81,Good,Consistent
+134,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+135,38,Lawyer,Male,Normal,75.81,Good,Consistent
+136,38,Lawyer,Male,Normal,75.81,Good,Consistent
+137,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+138,38,Lawyer,Male,Normal,75.81,Good,Consistent
+139,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+140,38,Lawyer,Male,Normal,75.81,Good,Consistent
+141,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+142,38,Lawyer,Male,Normal,75.81,Good,Consistent
+143,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+144,38,Accountant,Female,Normal,87.0,Excellent,Consistent
+145,38,Lawyer,Male,Normal,75.81,Good,Consistent
+146,38,Lawyer,Female,Obese,66.51,Good,High Score / Poor BMI
+147,39,Lawyer,Male,Normal,75.81,Good,Consistent
+148,39,Engineer,Male,Overweight,52.67,Fair,Consistent
+149,39,Lawyer,Female,Normal,67.9,Good,Consistent
+150,39,Accountant,Female,Normal,91.37,Excellent,Consistent
+151,39,Accountant,Female,Normal,91.37,Excellent,Consistent
+152,39,Lawyer,Male,Normal,75.81,Good,Consistent
+153,39,Lawyer,Male,Normal,75.81,Good,Consistent
+154,39,Lawyer,Male,Normal,75.81,Good,Consistent
+155,39,Lawyer,Male,Normal,75.81,Good,Consistent
+156,39,Lawyer,Male,Normal,75.81,Good,Consistent
+157,39,Lawyer,Male,Normal,75.81,Good,Consistent
+158,39,Lawyer,Male,Normal,75.81,Good,Consistent
+159,39,Lawyer,Male,Normal,75.81,Good,Consistent
+160,39,Lawyer,Male,Normal,75.81,Good,Consistent
+161,39,Lawyer,Male,Normal,75.81,Good,Consistent
+162,40,Accountant,Female,Normal,81.59,Excellent,Consistent
+163,40,Accountant,Female,Normal,81.59,Excellent,Consistent
+164,40,Lawyer,Male,Normal,75.76,Good,Consistent
+165,40,Lawyer,Male,Normal,75.76,Good,Consistent
+166,41,Lawyer,Male,Normal,75.77,Good,Consistent
+167,41,Engineer,Male,Normal,81.16,Excellent,Consistent
+168,41,Lawyer,Male,Overweight,74.07,Good,High Score / Poor BMI
+169,41,Lawyer,Male,Overweight,74.07,Good,High Score / Poor BMI
+170,41,Lawyer,Male,Normal,75.77,Good,Consistent
+171,41,Lawyer,Male,Normal,75.77,Good,Consistent
+172,41,Lawyer,Male,Normal,75.77,Good,Consistent
+173,41,Lawyer,Male,Normal,75.77,Good,Consistent
+174,41,Lawyer,Male,Normal,75.77,Good,Consistent
+175,41,Lawyer,Male,Normal,75.77,Good,Consistent
+176,41,Lawyer,Male,Normal,75.77,Good,Consistent
+177,41,Lawyer,Male,Normal,75.77,Good,Consistent
+178,42,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+179,42,Lawyer,Male,Normal,75.77,Good,Consistent
+180,42,Lawyer,Male,Normal,75.77,Good,Consistent
+181,42,Lawyer,Male,Normal,75.77,Good,Consistent
+182,42,Lawyer,Male,Normal,75.77,Good,Consistent
+183,42,Lawyer,Male,Normal,75.77,Good,Consistent
+184,42,Lawyer,Male,Normal,75.77,Good,Consistent
+185,42,Teacher,Female,Overweight,60.5,Good,High Score / Poor BMI
+186,42,Teacher,Female,Overweight,60.5,Good,High Score / Poor BMI
+187,43,Teacher,Female,Overweight,62.36,Good,High Score / Poor BMI
+188,43,Salesperson,Male,Overweight,59.65,Fair,Consistent
+189,43,Teacher,Female,Overweight,62.36,Good,High Score / Poor BMI
+190,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+191,43,Teacher,Female,Overweight,62.36,Good,High Score / Poor BMI
+192,43,Salesperson,Male,Overweight,60.0,Good,High Score / Poor BMI
+193,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+194,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+195,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+196,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+197,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+198,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+199,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+200,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+201,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+202,43,Engineer,Male,Normal,75.77,Good,Consistent
+203,43,Engineer,Male,Normal,75.77,Good,Consistent
+204,43,Engineer,Male,Normal,73.21,Good,Consistent
+205,43,Engineer,Male,Overweight,85.7,Excellent,High Score / Poor BMI
+206,43,Engineer,Male,Normal,75.77,Good,Consistent
+207,43,Engineer,Male,Normal,75.77,Good,Consistent
+208,43,Engineer,Male,Normal,75.77,Good,Consistent
+209,43,Engineer,Male,Normal,75.77,Good,Consistent
+210,43,Engineer,Male,Normal,75.77,Good,Consistent
+211,43,Engineer,Male,Normal,75.77,Good,Consistent
+212,43,Engineer,Male,Normal,75.77,Good,Consistent
+213,43,Engineer,Male,Normal,75.77,Good,Consistent
+214,43,Engineer,Male,Normal,75.77,Good,Consistent
+215,43,Engineer,Male,Normal,75.77,Good,Consistent
+216,43,Engineer,Male,Normal,75.77,Good,Consistent
+217,43,Engineer,Male,Normal,75.77,Good,Consistent
+218,43,Engineer,Male,Normal,75.77,Good,Consistent
+219,43,Engineer,Male,Normal,75.77,Good,Consistent
+220,43,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+221,44,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+222,44,Salesperson,Male,Overweight,60.0,Good,High Score / Poor BMI
+223,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+224,44,Salesperson,Male,Overweight,60.0,Good,High Score / Poor BMI
+225,44,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+226,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+227,44,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+228,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+229,44,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+230,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+231,44,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+232,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+233,44,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+234,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+235,44,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+236,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+237,44,Salesperson,Male,Overweight,60.0,Good,High Score / Poor BMI
+238,44,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+239,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+240,44,Salesperson,Male,Overweight,60.0,Good,High Score / Poor BMI
+241,44,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+242,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+243,44,Salesperson,Male,Overweight,60.0,Good,High Score / Poor BMI
+244,44,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+245,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+246,44,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+247,44,Salesperson,Male,Overweight,59.65,Fair,Consistent
+248,44,Engineer,Male,Overweight,62.1,Good,High Score / Poor BMI
+249,44,Salesperson,Male,Overweight,60.0,Good,High Score / Poor BMI
+250,44,Salesperson,Male,Overweight,60.38,Good,High Score / Poor BMI
+251,45,Teacher,Female,Overweight,54.69,Fair,Consistent
+252,45,Teacher,Female,Overweight,54.69,Fair,Consistent
+253,45,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+254,45,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+255,45,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+256,45,Teacher,Female,Overweight,61.74,Good,High Score / Poor BMI
+257,45,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+258,45,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+259,45,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+260,45,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+261,45,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+262,45,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+263,45,Teacher,Female,Overweight,62.08,Good,High Score / Poor BMI
+264,45,Manager,Female,Overweight,75.32,Good,High Score / Poor BMI
+265,48,Doctor,Male,Obese,58.89,Fair,Consistent
+266,48,Nurse,Female,Overweight,53.71,Fair,Consistent
+267,48,Doctor,Male,Obese,58.89,Fair,Consistent
+268,49,Nurse,Female,Overweight,54.77,Fair,Consistent
+269,49,Nurse,Female,Overweight,54.02,Fair,Consistent
+270,49,Nurse,Female,Overweight,54.41,Fair,Consistent
+271,49,Nurse,Female,Overweight,54.41,Fair,Consistent
+272,49,Nurse,Female,Overweight,54.41,Fair,Consistent
+273,49,Nurse,Female,Overweight,54.41,Fair,Consistent
+274,49,Nurse,Female,Overweight,54.77,Fair,Consistent
+275,49,Nurse,Female,Overweight,54.77,Fair,Consistent
+276,49,Nurse,Female,Overweight,54.77,Fair,Consistent
+277,49,Doctor,Male,Obese,66.69,Good,High Score / Poor BMI
+278,49,Doctor,Male,Obese,66.69,Good,High Score / Poor BMI
+279,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+280,50,Engineer,Female,Normal,78.39,Good,Consistent
+281,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+282,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+283,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+284,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+285,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+286,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+287,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+288,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+289,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+290,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+291,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+292,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+293,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+294,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+295,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+296,50,Nurse,Female,Overweight,54.02,Fair,Consistent
+297,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+298,50,Nurse,Female,Overweight,54.41,Fair,Consistent
+299,51,Engineer,Female,Normal,78.39,Good,Consistent
+300,51,Engineer,Female,Normal,78.39,Good,Consistent
+301,51,Engineer,Female,Normal,78.39,Good,Consistent
+302,51,Engineer,Female,Normal,78.39,Good,Consistent
+303,51,Nurse,Female,Normal,74.07,Good,Consistent
+304,51,Nurse,Female,Overweight,54.02,Fair,Consistent
+305,51,Nurse,Female,Overweight,54.41,Fair,Consistent
+306,51,Nurse,Female,Overweight,54.41,Fair,Consistent
+307,52,Accountant,Female,Overweight,61.96,Good,High Score / Poor BMI
+308,52,Accountant,Female,Overweight,61.96,Good,High Score / Poor BMI
+309,52,Accountant,Female,Overweight,62.37,Good,High Score / Poor BMI
+310,52,Accountant,Female,Overweight,62.37,Good,High Score / Poor BMI
+311,52,Accountant,Female,Overweight,62.37,Good,High Score / Poor BMI
+312,52,Accountant,Female,Overweight,62.37,Good,High Score / Poor BMI
+313,52,Engineer,Female,Normal,78.39,Good,Consistent
+314,52,Engineer,Female,Normal,78.39,Good,Consistent
+315,52,Engineer,Female,Normal,78.39,Good,Consistent
+316,53,Engineer,Female,Normal,78.39,Good,Consistent
+317,53,Engineer,Female,Normal,78.39,Good,Consistent
+318,53,Engineer,Female,Normal,78.39,Good,Consistent
+319,53,Engineer,Female,Normal,78.39,Good,Consistent
+320,53,Engineer,Female,Normal,78.39,Good,Consistent
+321,53,Engineer,Female,Normal,78.39,Good,Consistent
+322,53,Engineer,Female,Normal,78.39,Good,Consistent
+323,53,Engineer,Female,Normal,78.39,Good,Consistent
+324,53,Engineer,Female,Normal,78.39,Good,Consistent
+325,53,Engineer,Female,Normal,78.39,Good,Consistent
+326,53,Engineer,Female,Normal,78.39,Good,Consistent
+327,53,Engineer,Female,Normal,78.39,Good,Consistent
+328,53,Engineer,Female,Normal,78.39,Good,Consistent
+329,53,Engineer,Female,Normal,78.39,Good,Consistent
+330,53,Engineer,Female,Normal,78.39,Good,Consistent
+331,53,Engineer,Female,Normal,78.39,Good,Consistent
+332,53,Engineer,Female,Normal,78.39,Good,Consistent
+333,54,Engineer,Female,Normal,78.39,Good,Consistent
+334,54,Engineer,Female,Normal,78.39,Good,Consistent
+335,54,Engineer,Female,Normal,78.39,Good,Consistent
+336,54,Engineer,Female,Normal,78.39,Good,Consistent
+337,54,Engineer,Female,Normal,78.39,Good,Consistent
+338,54,Engineer,Female,Normal,78.39,Good,Consistent
+339,54,Engineer,Female,Normal,78.39,Good,Consistent
+340,55,Nurse,Female,Overweight,66.71,Good,High Score / Poor BMI
+341,55,Nurse,Female,Overweight,66.71,Good,High Score / Poor BMI
+342,56,Doctor,Female,Normal,93.88,Excellent,Consistent
+343,56,Doctor,Female,Normal,93.88,Excellent,Consistent
+344,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+345,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+346,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+347,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+348,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+349,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+350,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+351,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+352,57,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+353,58,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+354,58,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+355,58,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+356,58,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+357,58,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+358,58,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+359,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+360,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+361,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+362,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+363,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+364,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+365,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+366,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+367,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+368,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+369,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+370,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+371,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+372,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+373,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
+374,59,Nurse,Female,Overweight,70.89,Good,High Score / Poor BMI
