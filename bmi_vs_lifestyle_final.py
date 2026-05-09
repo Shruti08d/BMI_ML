@@ -16,10 +16,7 @@ np.random.seed(42)
 
 #LOAD THE DATASET
 
-print("=" * 55)
-print("PART 1: Loading the dataset")
-print("=" * 55)
-
+print("Loading the dataset")
 df = pd.read_csv("final_data.csv")
 
 print(f"\n  Total rows    : {len(df)}")
@@ -35,18 +32,14 @@ drop_these = [
 ]
 
 df = df.drop(columns=drop_these)
-print(f"\n  Dropped pre-built scores and family history")
-print(f"  Columns remaining: {len(df.columns)}")
 
 
 
 #  CREATE THE TARGET VARIABLE
 # HbA1c >= 6.5 means the person has diabetes risk
 # 1 = at risk, 0 = not at risk
+print("Building the target variable")
 
-print("\n" + "=" * 55)
-print("PART 2: Building the target variable")
-print("=" * 55)
 
 df["target"] = (df["hba1c"] >= 6.5).astype(int)
 
@@ -56,43 +49,30 @@ not_at_risk = len(df) - at_risk
 print(f"\n  Target: HbA1c >= 6.5 (WHO diabetes threshold)")
 print(f"\n  At Risk     (1) : {at_risk} people ({at_risk/len(df)*100:.1f}%)")
 print(f"  Not At Risk (0) : {not_at_risk} people ({not_at_risk/len(df)*100:.1f}%)")
-print(f"\n  Classes are balanced - good to go")
+
 
 
 #CLEAN AND ENCODE
 
-
-
-print("\n" + "=" * 55)
-print("PART 3: Cleaning and encoding data")
-print("=" * 55)
-
+print("Cleaning and encoding data")
 before = len(df)
 df     = df.dropna()
 
-print(f"\n  Rows before : {before}")
-print(f"  Rows after  : {len(df)}")
 
 text_columns = [
     "gender", "ethnicity", "education_level",
     "income_level", "employment_status", "smoking_status"
 ]
 
-print(f"\n  Encoding text columns:")
 for col in text_columns:
     enc     = LabelEncoder()
     df[col] = enc.fit_transform(df[col].astype(str))
-    print(f"    {col} -> numbers")
-
-
+    
 
 # SET UP FEATURES AND TARGET
 # we predict the same target with both and compare the results
 # the difference between them is our finding
 
-print("\n" + "=" * 55)
-print("PART 4: Setting up features")
-print("=" * 55)
 
 # Model A - just BMI
 features_bmi = ["bmi"]
@@ -117,19 +97,10 @@ y = df["target"].values
 
 print(f"\n  Model A (BMI only)  : {features_bmi}")
 print(f"  Model B (lifestyle) : {len(features_full)} features")
-print(f"  Target              : HbA1c >= 6.5")
-print(f"  Total samples       : {len(y)}")
-print(f"\n  NOTE: family_history_diabetes was removed")
-print(f"  We want lifestyle habits to do the work, not genetics")
-
-
 
 #  SCALE THE FEATURES
 # bring everything to the same range
-
-print("\n" + "=" * 55)
-print("PART 5: Scaling features")
-print("=" * 55)
+print("Scaling features")
 
 # two separate scalers so each model gets the right scale
 scaler_bmi  = StandardScaler()
@@ -138,22 +109,13 @@ scaler_full = StandardScaler()
 X_bmi  = scaler_bmi.fit_transform(df[features_bmi])
 X_full = scaler_full.fit_transform(df[features_full])
 
-print(f"\n  BMI-only : {X_bmi.shape[0]} rows x {X_bmi.shape[1]} feature")
-print(f"  Full     : {X_full.shape[0]} rows x {X_full.shape[1]} features")
-print(f"  All scaled to mean=0, std=1")
-
-
 
 #  THREE MODELS
 # we test three different algorithms and compare them
 # Logistic Regression 
 # Random Forest   
 # K-Nearest Neighbors
-
-print("\n" + "=" * 55)
-print("PART 6: Defining three models")
-print("=" * 55)
-
+print("Defining three models")
 models = {
     "Logistic Regression" : LogisticRegression(
                                 max_iter     = 1000,
@@ -170,8 +132,7 @@ models = {
                             ),
 }
 
-for name in models:
-    print(f"  Ready: {name}")
+print("go")
 
 
 
@@ -181,10 +142,9 @@ for name in models:
 # AUC of 1.0 = perfect predictions
 # the gap between Model A and Model B is our main finding
 
-print("\n" + "=" * 55)
-print("PART 7: 5-Fold Cross Validation")
-print("        BMI only  vs  Full Lifestyle")
-print("=" * 55)
+print(" 5-Fold Cross Validation")
+print("BMI only  vs  Full Lifestyle")
+
 
 cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
@@ -230,7 +190,6 @@ for name, model in models.items():
 results_df = pd.DataFrame(all_results)
 
 print(f"\n\n  RESULTS SUMMARY")
-print(f"  {'=' * 55}")
 print(f"  {results_df[['Model','AUC BMI','AUC Full','AUC Gap']].to_string(index=False)}")
 
 results_df.to_csv("results.csv", index=False)
@@ -239,10 +198,7 @@ print(f"\n  Saved ")
 
 
 #  BMI vs LIFESTYLE SIDE BY SIDE
-
-print("\n" + "=" * 55)
 print("PART 8: Chart 1 - BMI vs Lifestyle AUC")
-print("=" * 55)
 
 BLUE   = "#3B8BD4"
 ORANGE = "#E87D4C"
@@ -293,14 +249,14 @@ ax.spines["right"].set_visible(False)
 plt.tight_layout()
 plt.savefig("chart1_bmi_vs_lifestyle.png", dpi=150, bbox_inches="tight")
 plt.close()
-print("  Saved -> chart1_bmi_vs_lifestyle.png")
+print("  Saved")
 
 
 # charts
 
-print("\n" + "=" * 55)
+
 print("PART 9: Chart 2 - Improvement over BMI")
-print("=" * 55)
+
 
 fig, ax = plt.subplots(figsize=(7, 5))
 
@@ -331,13 +287,9 @@ ax.axhline(y=0, color="black", linewidth=0.8)
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
 
-fig.text(
-    0.5, -0.04,
-    ha="center", fontsize=8.5, color="gray", style="italic"
-)
-
 plt.tight_layout()
 plt.savefig("chart2_improvement.png", dpi=150, bbox_inches="tight")
 plt.close()
 print("  Saved")
 print("\n  yaay!")
+
